@@ -1,0 +1,47 @@
+﻿Build started 20/11/2011 10:45:17.
+     1>Project "C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\YDXInput\YDXInput.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\YDXInput.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D YDXINPUT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt YDXInput.cpp YJoystick.cpp YKeyboard.cpp YMouse.cpp
+         YMouse.cpp
+         YKeyboard.cpp
+         YJoystick.cpp
+     1>c:\users\yosbi alves\desktop\directx experiments\y-engine\yinput\ydxinput\yjoystick.cpp(105): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         YDXInput.cpp
+     1>c:\users\yosbi alves\desktop\directx experiments\y-engine\yinput\ydxinput\ydxinput.cpp(140): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\yosbi alves\desktop\directx experiments\y-engine\yinput\ydxinput\ydxinput.cpp(326): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>c:\users\yosbi alves\desktop\directx experiments\y-engine\yinput\ydxinput\ydxinput.cpp(471): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'vsprintf'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\YDXInput.dll.embed.manifest.res" Debug\YDXInput_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\Debug\YDXInput.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"YDXInput.def" /MANIFEST /ManifestFile:"Debug\YDXInput.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\Debug\YDXInput.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\Debug\YDXInput.lib" /MACHINE:X86 /DLL Debug\YDXInput.dll.embed.manifest.res
+         Debug\YDXInput.obj
+         Debug\YJoystick.obj
+         Debug\YKeyboard.obj
+         Debug\YMouse.obj
+            Creating library C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\Debug\YDXInput.lib and object C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\Debug\YDXInput.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\YDXInput.dll.embed.manifest" /manifest Debug\YDXInput.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\YDXInput.dll.embed.manifest.res" Debug\YDXInput_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\Debug\YDXInput.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"YDXInput.def" /MANIFEST /ManifestFile:"Debug\YDXInput.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\Debug\YDXInput.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\Debug\YDXInput.lib" /MACHINE:X86 /DLL Debug\YDXInput.dll.embed.manifest.res
+         Debug\YDXInput.obj
+         Debug\YJoystick.obj
+         Debug\YKeyboard.obj
+         Debug\YMouse.obj
+            Creating library C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\Debug\YDXInput.lib and object C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\Debug\YDXInput.exp
+         YDXInput.vcxproj -> C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\Debug\YDXInput.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\YDXInput.unsuccessfulbuild".
+         Touching "Debug\YDXInput.lastbuildstate".
+     1>Done Building Project "C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\YDXInput\YDXInput.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.50

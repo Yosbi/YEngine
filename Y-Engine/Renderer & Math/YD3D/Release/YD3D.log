@@ -1,0 +1,65 @@
+﻿Build started 20/10/2011 20:17:26.
+     1>Project "C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YD3D\YD3D.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\YD3D.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D YD3D_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt YD3DEnum.cpp YD3DInit.cpp YD3DMain.cpp YD3DMisc.cpp YD3DShaderStuff.cpp YD3DVertexCache.cpp YD3DSettingsDlg.cpp YD3DSkinManager.cpp YD3DWorldViewProj.cpp
+         YD3DEnum.cpp
+         YD3DInit.cpp
+     1>YD3DInit.cpp(699): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+         YD3DMain.cpp
+     1>YD3DMain.cpp(306): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+         YD3DMisc.cpp
+     1>YD3DMisc.cpp(282): warning C4018: '<' : signed/unsigned mismatch
+         YD3DShaderStuff.cpp
+         YD3DVertexCache.cpp
+     1>YD3DVertexCache.cpp(1300): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>YD3DVertexCache.cpp(1647): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+         YD3DSettingsDlg.cpp
+         YD3DSkinManager.cpp
+     1>YD3DSkinManager.cpp(908): warning C4244: 'argument' : conversion from 'WORD' to 'BYTE', possible loss of data
+     1>YD3DSkinManager.cpp(908): warning C4244: 'argument' : conversion from 'WORD' to 'BYTE', possible loss of data
+     1>YD3DSkinManager.cpp(908): warning C4244: 'argument' : conversion from 'WORD' to 'BYTE', possible loss of data
+     1>YD3DSkinManager.cpp(908): warning C4244: 'argument' : conversion from 'WORD' to 'BYTE', possible loss of data
+     1>YD3DSkinManager.cpp(976): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>YD3DSkinManager.cpp(991): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         YD3DWorldViewProj.cpp
+     1>YD3DWorldViewProj.cpp(238): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>YD3DWorldViewProj.cpp(491): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\dlgChangeDevice.res" dlgChangeDevice.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\Release\YD3D.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\YD3D.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\Release\YD3D.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\Release\YD3D.lib" /MACHINE:X86 /DLL Release\dlgChangeDevice.res
+         Release\YD3DEnum.obj
+         Release\YD3DInit.obj
+         Release\YD3DMain.obj
+         Release\YD3DMisc.obj
+         Release\YD3DShaderStuff.obj
+         Release\YD3DVertexCache.obj
+         Release\YD3DSettingsDlg.obj
+         Release\YD3DSkinManager.obj
+         Release\YD3DWorldViewProj.obj
+     1>YEMath.lib(YMatrix.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+            Creating library C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\Release\YD3D.lib and object C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\Release\YD3D.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+     1>c:\users\yosbi alves\desktop\directx experiments\y-engine\yd3d\yd3dskinmanager.cpp(942): warning C4700: uninitialized local variable 'EmptyMat' used
+     1>c:\users\yosbi alves\desktop\directx experiments\y-engine\yd3d\yd3dskinmanager.cpp(927): warning C4700: uninitialized local variable 'EmptySkin' used
+         Finished generating code
+         YD3D.vcxproj -> C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\Release\YD3D.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\Release\YD3D.dll;#2" /manifest Release\YD3D.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\YD3D.unsuccessfulbuild".
+         Touching "Release\YD3D.lastbuildstate".
+     1>Done Building Project "C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YD3D\YD3D.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.80

@@ -1,0 +1,6 @@
+;YDXInput.def
+;The following functions are exported from this DLL
+LIBRARY   "YDXInput.dll"
+EXPORTS
+   CreateInputDevice
+   ReleaseInputDevice

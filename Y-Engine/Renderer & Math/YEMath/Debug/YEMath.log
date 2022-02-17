@@ -1,0 +1,26 @@
+﻿Build started 23/12/2011 11:01:51.
+     1>Project "C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\Renderer & Math\YEMath\YEMath.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\YEMath.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt YMatrix.cpp
+         YMatrix.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\Renderer & Math\Debug\YEMath.lib" /NOLOGO Debug\YAabb.obj
+         Debug\YCPU.obj
+         Debug\YMatrix.obj
+         Debug\YObb.obj
+         Debug\YPlane.obj
+         Debug\YPolygon.obj
+         Debug\YQuat.obj
+         Debug\YRay.obj
+         Debug\YVector.obj
+         YEMath.vcxproj -> C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\Renderer & Math\Debug\YEMath.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\YEMath.unsuccessfulbuild".
+         Touching "Debug\YEMath.lastbuildstate".
+     1>Done Building Project "C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\Renderer & Math\YEMath\YEMath.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.26

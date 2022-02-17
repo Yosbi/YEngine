@@ -1,0 +1,6 @@
+;YD3D.def
+;The following functions are exported from this DLL
+LIBRARY	"YD3D.dll"
+EXPORTS
+	CreateRenderDevice
+	ReleaseRenderDevice

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YInput", "YInput\YInput.vcxproj", "{C9827804-D705-49DE-8B2B-8F1F36C5CC22}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YDXInput", "YDXInput\YDXInput.vcxproj", "{D206F0DB-2E3D-452B-9C1D-99F104F2FE9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9827804-D705-49DE-8B2B-8F1F36C5CC22}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9827804-D705-49DE-8B2B-8F1F36C5CC22}.Debug|Win32.Build.0 = Debug|Win32
+		{C9827804-D705-49DE-8B2B-8F1F36C5CC22}.Release|Win32.ActiveCfg = Release|Win32
+		{C9827804-D705-49DE-8B2B-8F1F36C5CC22}.Release|Win32.Build.0 = Release|Win32
+		{D206F0DB-2E3D-452B-9C1D-99F104F2FE9A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D206F0DB-2E3D-452B-9C1D-99F104F2FE9A}.Debug|Win32.Build.0 = Debug|Win32
+		{D206F0DB-2E3D-452B-9C1D-99F104F2FE9A}.Release|Win32.ActiveCfg = Release|Win32
+		{D206F0DB-2E3D-452B-9C1D-99F104F2FE9A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

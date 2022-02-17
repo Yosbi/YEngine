@@ -1,0 +1,18 @@
+﻿Build started 20/11/2011 10:45:17.
+     1>Project "C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\YInput\YInput.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\YInput.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt YInput.cpp
+         YInput.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\Debug\YInput.lib" /NOLOGO Debug\YInput.obj
+         YInput.vcxproj -> C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\Debug\YInput.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\YInput.unsuccessfulbuild".
+         Touching "Debug\YInput.lastbuildstate".
+     1>Done Building Project "C:\Users\Yosbi Alves\Desktop\DirectX Experiments\Y-Engine\YInput\YInput\YInput.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.34

@@ -1,0 +1,16 @@
+[YDXInputDevice]: crancking up keyboard
+[YDXInputDevice]: keyboard online
+[YDXInputDevice]: crancking up mouse
+[YDXInputDevice]: mouse online
+[YDXInputDevice]: Crancking up joystick
+[YDXInputDevice]: no joystick found
+[YDXInputDevice]: releasing joystick
+[YDXInputDevice]: input device offline (ok)
+[YDXInputDevice]: warning: no joystick active
+[YDXInputDevice]: initialized (online and ready)
+[YDXInputDevice]: shutting down DirectInput
+[YDXInputDevice]: releasing keyboard
+[YDXInputDevice]: input device offline (ok)
+[YDXInputDevice]: releasing mouse
+[YDXInputDevice]: input device offline (ok)
+[YDXInputDevice]: offline (ok)

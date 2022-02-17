@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21 Transparent teapod", "21 Transparent teapod\21 Transparent teapod.vcxproj", "{156AA35D-2F3E-43BD-B176-9B73387595DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{156AA35D-2F3E-43BD-B176-9B73387595DD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{156AA35D-2F3E-43BD-B176-9B73387595DD}.Debug|Win32.Build.0 = Debug|Win32
+		{156AA35D-2F3E-43BD-B176-9B73387595DD}.Release|Win32.ActiveCfg = Release|Win32
+		{156AA35D-2F3E-43BD-B176-9B73387595DD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

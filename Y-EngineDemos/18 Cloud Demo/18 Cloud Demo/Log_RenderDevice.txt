@@ -1,0 +1,21 @@
+[YD3DDevice]: YEngine YD3D-RenderDevice log File:
+
+
+[YD3DDevice]: Calling the dialog... 
+
+[YD3DDevice]: 1 Selection dialg ok
+[YD3DDevice]: Firing up Direct3D
+
+[YD3DSkinManager]: online
+[YD3DVCacheManager]: online
+[YD3DDevice]: HW Supports Shaders Version 2.0
+[YD3DDevice]: Use of shaders activated
+[YD3DDevice]: First time init complete
+[YD3DDevice]: Initialized (online and ready)
+
+[YD3DDevice]: Shutting down Direct3D
+
+[YD3DSkinManager]: Offline (ok)
+[YD3DVCacheManager]: offline (ok)
+[YD3DDevice]: Shutdown completed
+
